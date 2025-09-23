@@ -5,14 +5,10 @@ const data = {
   matematica: { title: 'matematica' },
 };
 
-interface Props {
-  params: { name: string };
-}
-
 export async function generateStaticParams() {
   return Object.keys(data).map((name) => ({ name }));
 }
 
-export default function Page({ params }: Props) {
+export default function Page({ params }: { params: { name: string } }) {
   return <MateriaPageClient name={params.name} />;
 }
