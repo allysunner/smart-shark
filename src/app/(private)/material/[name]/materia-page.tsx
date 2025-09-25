@@ -1,5 +1,4 @@
-// app/material/[name]/MateriaPageClient.tsx
-'use client'
+'use client';
 
 import SubjectCard from "@/components/card/subject-card";
 import SearchField from "@/components/ui/search-field";

@@ -1,7 +1,7 @@
 {
   "name": "projeto-integrador-def",
   "version": "0.1.0",
-  "type": "commonjs",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev",
